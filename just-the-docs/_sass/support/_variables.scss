@@ -1,0 +1,258 @@
+//
+// Typography
+//
+
+$body-font-family: 'Noto Sans', sans-serif !default;
+$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace !default;
+$root-font-size: 16px !default; // Base font-size for rems
+$body-line-height: 1.4 !default;
+$content-line-height: 1.5em !default;
+$body-heading-line-height: 1.15 !default !default;
+
+//
+// Colors
+//
+
+$white: #fff !default;
+
+$grey-dk-000: #959396 !default;
+$grey-dk-100: #5c5962 !default;
+$grey-dk-200: #44434d !default;
+$grey-dk-250: #302d36 !default;
+$grey-dk-300: #27262b !default;
+
+$grey-lt-000: #f5f6fa !default;
+$grey-lt-100: #eeebee !default;
+$grey-lt-200: #ecebed !default;
+$grey-lt-300: #e6e1e8 !default;
+
+$purple-000: #7253ed !default;
+$purple-100: #5e41d0 !default;
+$purple-200: #4e26af !default;
+$purple-300: #381885 !default;
+
+$blue-000: #2c84fa !default;
+$blue-100: #2869e6 !default;
+$blue-200: #264caf !default;
+$blue-300: #183385 !default;
+
+$green-000: #41d693 !default;
+$green-100: #11b584 !default;
+$green-200: #009c7b !default;
+$green-300: #026e57 !default;
+
+$yellow-000: #ffeb82 !default;
+$yellow-100: #fadf50 !default;
+$yellow-200: #f7d12e !default;
+$yellow-300: #e7af06 !default;
+
+$red-000: #f77e7e !default;
+$red-100: #f96e65 !default;
+$red-200: #e94c4c !default;
+$red-300: #dd2e2e !default;
+
+$body-background-color: $white !default;
+$sidebar-color: #36393f !default;
+$search-background-color: $white !default;
+$table-background-color: $white !default;
+$code-background-color: $grey-lt-000 !default;
+
+$body-text-color: $grey-dk-100 !default;
+$body-heading-color: $grey-dk-300 !default;
+$search-result-preview-color: $grey-dk-000 !default;
+$nav-child-link-color: $grey-dk-100 !default;
+$link-color: $purple-000 !default;
+$btn-primary-color: $purple-100 !default;
+$base-button-color: #f7f7f7 !default;
+
+//
+// Spacing
+//
+
+$spacing-unit: 1rem; // 1rem == 16px
+
+$spacers: (
+  sp-0: 0,
+  sp-1: $spacing-unit * 0.25,
+  sp-2: $spacing-unit * 0.5,
+  sp-3: $spacing-unit * 0.75,
+  sp-4: $spacing-unit,
+  sp-5: $spacing-unit * 1.5,
+  sp-6: $spacing-unit * 2,
+  sp-7: $spacing-unit * 2.5,
+  sp-8: $spacing-unit * 3,
+  sp-9: $spacing-unit * 3.5,
+  sp-10: $spacing-unit * 4,
+) !default;
+
+$sp-1: map-get($spacers, sp-1) !default; // 0.25 rem == 4px
+$sp-2: map-get($spacers, sp-2) !default; // 0.5  rem == 8px
+$sp-3: map-get($spacers, sp-3) !default; // 0.75 rem == 12px
+$sp-4: map-get($spacers, sp-4) !default; // 1    rem == 16px
+$sp-5: map-get($spacers, sp-5) !default; // 1.5  rem == 24px
+$sp-6: map-get($spacers, sp-6) !default; // 2    rem == 32px
+$sp-7: map-get($spacers, sp-7) !default; // 2.5  rem == 40px
+$sp-8: map-get($spacers, sp-8) !default; // 3    rem == 48px
+$sp-9: map-get($spacers, sp-9) !default; // 4    rem == 48px
+$sp-10: map-get($spacers, sp-10) !default; // 4.5  rem == 48px
+
+//
+// Borders
+//
+
+$border: 2px solid !default;
+$border-radius: 8px !default;
+$border-color: $grey-lt-100 !default;
+
+//
+// Grid system
+//
+
+$gutter-spacing: $sp-8 !default;
+$gutter-spacing-sm: $sp-4 !default;
+$nav-width: 264px !default;
+$nav-width-md: 248px !default;
+$content-width: 900px !default;
+$header-height: 60px !default;
+$search-results-width: 500px !default;
+
+//
+// Media queries in pixels
+//
+
+$media-queries: (
+  xs: 320px,
+  sm: 500px,
+  md: $content-width,
+  lg: $content-width + $nav-width,
+  xl: 1400px,
+) !default;
+
+
+
+// Properties
+:root {
+    // App
+    // =========================================================================
+    // Monochrome
+    --mono-hue                             : 201;
+    --mono-saturation                      : 18%;
+
+    // Monochrome shades (darker) and tints (lighter)
+    --mono-shade3                          : hsl(var(--mono-hue), var(--mono-saturation), 13%);
+    --mono-shade2                          : hsl(var(--mono-hue), var(--mono-saturation), 15%);
+    --mono-shade1                          : hsl(var(--mono-hue), var(--mono-saturation), 17%);
+    --mono-base                            : hsl(var(--mono-hue), var(--mono-saturation), 19%);
+    --mono-tint1                           : hsl(var(--mono-hue), var(--mono-saturation), 25%);
+    --mono-tint2                           : hsl(var(--mono-hue), var(--mono-saturation), 35%);
+    --mono-tint3                           : hsl(var(--mono-hue), var(--mono-saturation), 43%);
+
+    // Spinner
+    --spinner-track-color                  : rgba(255, 255, 255, 0.15);
+
+
+    // Base
+    // =========================================================================
+    --base-background-color                : var(--mono-base);
+    --base-color                           : #d3d3d3;
+
+    // Horizontal Rule
+    --hr-border                            : 1px solid var(--mono-tint2);
+
+    // Mark
+    --mark-background                      : #ffcb6b;
+    --mark-color                           : var(--base-background-color);
+
+
+    // Content
+    // =========================================================================
+    // Blockquote
+    --blockquote-background                : var(--mono-shade2);
+
+    // Code
+    --code-inline-background               : var(--mono-tint1);
+    --code-theme-background                : var(--mono-shade2);
+
+    // Headings
+    --heading-color                        : #fff;
+    --heading-h2-border-color              : var(--mono-tint2);
+
+    // Keyboard
+    --kbd-background                       : var(--mono-shade2);
+    --kbd-border                           : none;
+    --kbd-color                            : var(--strong-color);
+
+    // Notice - Important
+    --notice-important-background          : var(--mono-shade2);
+
+    // Notice - Tip
+    --notice-tip-background                : var(--mono-shade2);
+
+    // Tables
+    --table-cell-border-color              : var(--mono-tint1);
+    --table-row-odd-background             : var(--mono-shade2);
+
+
+    // Cover
+    // =========================================================================
+    // Background
+    --cover-background-color               : var(--base-background-color);
+    --cover-background-image               : radial-gradient(ellipse at center bottom, var(--mono-tint3), transparent);
+
+    // Blockquote (Subtitle)
+    --cover-blockquote-color               : var(--mark-background);
+
+    // Buttons
+    --cover-button-border                  : 1px solid var(--mono-tint3);
+    --cover-button-color                   : #fff;
+
+
+    // Navbar
+    // =========================================================================
+    // Menus
+    --navbar-menu-background               : var(--mono-tint1);
+    --navbar-menu-box-shadow               : rgba(0,0,0,0.05) 0px 0px 1px, rgba(0,0,0,0.05) 0px 1px 2px, rgba(0,0,0,0.05) 0px 2px 4px, rgba(0,0,0,0.05) 0px 4px 8px, rgba(0,0,0,0.05) 0px 8px 16px, rgba(0,0,0,0.05) 0px 16px 32px;
+
+
+    // Plugin: Copy Code
+    // =========================================================================
+    --copycode-background                  : var(--mono-tint1);
+    --copycode-color                       : #fff;
+
+
+    // Plugin: Docsify Tabs
+    // =========================================================================
+    /* Tab blocks */
+    --docsifytabs-border-color    : var(--mono-tint2);
+
+    /* Tabs */
+    --docsifytabs-tab-background  : var(--mono-shade1);
+    --docsifytabs-tab-color       : var(--mono-tint2);
+
+
+    // Plugin: Pagination
+    // =========================================================================
+    --pagination-border-top                : 1px solid var(--mono-tint2);
+    --pagination-title-color               : #fff;
+
+
+    // Plugin: Search
+    // =========================================================================
+    // Input
+    --search-input-background-color        : var(--mono-shade2);
+    --search-input-background-image        : #{svg-data-uri('<svg height="20px" width="20px" viewBox="0 0 24 24" fill="none" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"><circle cx="10.5" cy="10.5" r="7.5" vector-effect="non-scaling-stroke"></circle><line x1="21" y1="21" x2="15.8" y2="15.8" vector-effect="non-scaling-stroke"></line></svg>')};
+    --search-input-border-color            : var(--mono-tint1);
+    --search-input-placeholder-color       : rgba(255, 255, 255, 0.4);
+
+    // Clear Button
+    --search-clear-icon-color1             : rgba(255, 255, 255, 0.3);
+
+
+    // Sidebar
+    // =========================================================================
+    --sidebar-background                   : var(--mono-shade1);
+    --sidebar-border-color                 : var(--mono-tint1);
+
+    // Nav Page Links
+    --sidebar-nav-pagelink-background-image: #{chevron-data-uri(right, 7px, null, 1.5, #495d68)};
+    }

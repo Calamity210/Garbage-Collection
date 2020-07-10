@@ -1,0 +1,8 @@
+title: "Calamity's GC"
+theme: just-the-docs
+color_scheme: "dark"
+search_enabled: true
+ga_tracking: UA-114525654-1
+highlighter: none
+repository: Calamity210/Garbage-Collection
+exclude: [".idea/", vendor]

@@ -6,15 +6,33 @@ title: Basics
 
 # Basics
 
+Birb is interpreted to c++.
+
 ## Data Types
 
 The only supported data types yet are:
 
-- Int - basic integer type, guaranteed to have a width of at least 16 bits.
+- Int - Basic integer type, guaranteed to have a width of at least 16 bits.
 - Double - Birb doubles are 64-bit floating-point numbers as specified in the IEEE 754 standard. 1 bit for the sign, 11 for exponents and 52 for the value itself.
 - String - Literals (char array), surrounded by `"`s.
 - Bool - True/False.
-- Tuples - An (currently) immutable object that holds multiple elements. Created by combining multiple expressions with a comma; `tuple => 1, 2.5, 21` . By default, tuple elements are named alphabetically, `a, b, c, d ...`. 
+- Tuples - An (currently) immutable object that holds multiple elements. Created by combining multiple expressions with a comma; `tuple => 1, 2.5, 21` . By default, tuple elements are named alphabetically, `a, b, c, d ...`.
+- Any - Similar to generics in other languages 
+```
+anyEx :: {Any} -> {Any} =>
+(
+	nest.toString
+)
+
+tweet => anyEx => 10
+tweet => anyEx => false
+```
+
+The above would print: 
+```
+10
+false
+```
 
 ## Strings
 

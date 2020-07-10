@@ -18,7 +18,8 @@ The only supported data types yet are:
 - Bool - True/False.
 - Tuples - An (currently) immutable object that holds multiple elements. Created by combining multiple expressions with a comma; `tuple => 1, 2.5, 21` . By default, tuple elements are named alphabetically, `a, b, c, d ...`.
 - Any - Similar to generics in other languages 
-```
+
+```python
 anyEx :: {Any} -> {Any} =>
 (
 	nest.toString
@@ -28,8 +29,11 @@ tweet => anyEx => 10
 tweet => anyEx => false
 ```
 
+
 The above would print: 
-```
+
+
+```dart
 10
 false
 ```

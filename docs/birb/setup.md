@@ -1,5 +1,6 @@
 ---
 parent: Birb
+nav_order: 0
 title: Setup
 ---
 

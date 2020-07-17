@@ -23,6 +23,6 @@ If you have any questions, feel free to ping me on Discord, my username is Calam
 ## Socials
 
 [Github](https://github.com/Calamity210){: .btn-primary }
-[Discord](https://discord.gg/P5neGUx){: .btn-primary }
+[Discord](https://discord.gg/Vx3vjM7){: .btn-primary }
 [Twitter](https://twitter.com/CALAMITY210){: .btn-primary }
 [LinkedIn](https://www.linkedin.com/in/aayan-raja-815b2a196){: .btn-primary }

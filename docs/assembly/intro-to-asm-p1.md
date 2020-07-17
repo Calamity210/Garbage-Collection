@@ -86,5 +86,3 @@ There was a lot of information to cover, but all of this is essential to learnin
 Please suggest anything you would like me to change and let me know how I can improve... is there something you think I should touch upon? Thanks, and I'll see you in the next one!
 
 ## Take Care!
-
-![Discord Banner 4](https://discordapp.com/api/guilds/438111991564075010/widget.png?style=banner4)

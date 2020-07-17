@@ -152,7 +152,3 @@ $: ./hello
 ```
 
 You can mess around with the code to better understand how it works. That's it for now, next time we will go with the traditional hello world program, with a small twist.
-
----
-
-[![SpiDev Discord](https://discordapp.com/api/guilds/438111991564075010/widget.png?style=banner4)](https://discord.gg/24aS9Dk)

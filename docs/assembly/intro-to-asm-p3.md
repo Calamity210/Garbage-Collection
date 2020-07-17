@@ -94,5 +94,3 @@ Next time, we will look at functions and create a function to get the length of 
 
 ![Caique March](https://media.giphy.com/media/XceM7JdQNsl7d4wYtT/source.gif)
 
-
-[![SpiDev Discord](https://discordapp.com/api/guilds/438111991564075010/widget.png?style=banner4)](https://discord.gg/24aS9Dk)

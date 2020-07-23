@@ -14,7 +14,7 @@ Minimal Birb programming language
 
 # Contribution
 
-- Clone the repository
+- Clone the repo from https://github.com/Calamity210/BirbLang
 - Navigate to the new directory and install birb by running:
 ```shell
 $ dart2native lib/Birb.dart

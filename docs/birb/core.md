@@ -8,4 +8,4 @@ wip: true
 
 # Core
 
-TODO:
+Core functionality for Birb programs built into the language itself.

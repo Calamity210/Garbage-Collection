@@ -34,3 +34,6 @@ screm("Henlo " + "birb!") // "Henlo birb!"
 
 ## Properties
 TODO:
+
+## Methods
+TODO:

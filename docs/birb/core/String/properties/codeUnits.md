@@ -1,6 +1,6 @@
 ---
 grand_parent: String
-parent: properties
+parent: String Properties
 nav_order: 0
 title: String
 ---

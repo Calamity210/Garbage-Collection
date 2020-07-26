@@ -1,6 +1,6 @@
 ---
 grand_parent: String
-parent: method
+parent: String Methods
 nav_order: 1
 title: String
 ---

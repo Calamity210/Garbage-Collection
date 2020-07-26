@@ -1,6 +1,6 @@
 ---
 grand_parent: String
-parent: properties
+parent: String Properties
 nav_order: 3
 title: String
 ---
@@ -14,5 +14,5 @@ Returns an int containing the length of this String
 ## Example
 ```dart
 String birb = "birb";
-int length = birb.length // 4
+int length = birb.length; // 4
 ```

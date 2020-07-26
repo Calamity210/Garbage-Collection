@@ -51,7 +51,7 @@ Supported data types yet are:
 - List - A collection of dynamic objects with a length.
 - Map - Key / Value pairs, key must be a String.
 - class - Encapsulates data for an object.
-- enum - Enumerated type, used to define constant values/
+- enum - Enumerated type, used to define constant values
 
 ## Primitive Types example
  ```dart
@@ -167,6 +167,8 @@ This is a multi-line comment.
 
 ## Standard Methods
  - Date
+ - decodeJson
+ - encodeJson
  - exit
  - GET
  - import

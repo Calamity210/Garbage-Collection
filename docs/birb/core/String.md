@@ -33,7 +33,33 @@ screm("Henlo " + "birb!") // "Henlo birb!"
 ```
 
 ## Properties
-TODO:
+- [codeUnits](/docs/birb/core/String/properties/codeUnits.md)
+- [isEmpty](/docs/birb/core/String/properties/isEmpty.md)
+- [isNotEmpty](/docs/birb/core/String/properties/isNotEmpty.md)
+- [length](/docs/birb/core/String/properties/length.md)
 
 ## Methods
-TODO:
+- [codeUnitAt](/docs/birb/core/String/methods/codeUnitAt.md)
+- [compareTo](/docs/birb/core/String/methods/compareTo.md)
+- [contains](/docs/birb/core/String/methods/contains.md)
+- [endsWith](/docs/birb/core/String/methods/endsWith.md)
+- [indexOf](/docs/birb/core/String/methods/indexOf.md)
+- [input](/docs/birb/core/String/methods/input.md)
+- [lastIndexOf](/docs/birb/core/String/methods/lastIndexOf.md)
+- [padLeft](/docs/birb/core/String/methods/padLeft.md)
+- [padRight](/docs/birb/core/String/methods/padRight.md)
+- [replaceAll](/docs/birb/core/String/methods/replaceAll.md)
+- [replaceFirst](/docs/birb/core/String/methods/replaceFirst.md)
+- [replaceRange](/docs/birb/core/String/methods/replaceRange.md)
+- [split](/docs/birb/core/String/methods/split.md)
+- [startsWith](/docs/birb/core/String/methods/startsWith.md)
+- [substring](/docs/birb/core/String/methods/substring.md)
+- [toBinary](/docs/birb/core/String/methods/toBinary.md)
+- [toDec](/docs/birb/core/String/methods/toDec.md)
+- [toHex](/docs/birb/core/String/methods/toHex.md)
+- [toOct](/docs/birb/core/String/methods/toOct.md)
+- [toLowerCase](/docs/birb/core/String/methods/toLowerCase.md)
+- [toUpperCase](/docs/birb/core/String/methods/toUpperCase.md)
+- [trim](/docs/birb/core/String/methods/trim.md)
+- [trimLeft](/docs/birb/core/String/methods/trimLeft.md)
+- [trimRight](/docs/birb/core/String/methods/trimRight.md)

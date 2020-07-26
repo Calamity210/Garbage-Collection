@@ -1,5 +1,5 @@
 ---
-title: String Properties
+title: Properties
 nav_order: 1
 grand_parent: Core
 parent: String

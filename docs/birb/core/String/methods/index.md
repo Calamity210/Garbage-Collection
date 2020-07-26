@@ -1,5 +1,5 @@
 ---
-title: String Methods
+title: Methods
 grand_parent: Core
 parent: String
 nav_order: 0

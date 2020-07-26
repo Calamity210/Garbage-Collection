@@ -1,7 +1,10 @@
 ---
 title: String Methods
-has_children: true
+grand_parent: Core
+parent: String
 nav_order: 0
+has_children: true
+wip: true
 ---
 
 # String Methods 

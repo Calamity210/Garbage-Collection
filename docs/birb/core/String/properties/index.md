@@ -1,7 +1,9 @@
 ---
 title: String Properties
-has_children: true
 nav_order: 1
+grand_parent: Core
+parent: String
+has_children: true
 ---
 
 # String Properties 

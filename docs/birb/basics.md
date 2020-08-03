@@ -137,9 +137,11 @@ for (int i = 0; i < 9; i++) {
 
 In both cases the braces `{}` are only required if you are specifying more than one statement.
 
-## If / else / ternary
+## Control-flow
 
 If statements in Birb work just like they would in other languages. Just as loops, the brackets are optional unless you are specifying more than one statement.
+
+A switch requires the default case, even if it is empty.
 
 ```dart
 int i = 10;
@@ -149,9 +151,18 @@ screm(i);
 else 
 screm('i is not less than 10');
 
-foo == 10 ? 
-print("Foo is 10") :
-print("Foo is not 10");
+switch(i) {
+  case 10: {
+    screm("i is 10");
+  } 
+  default: {
+    screm("i is not 10");
+  }
+}
+
+i == 10 ? 
+screm("i is 10") :
+screm("i is not 10");
 
 ```
 

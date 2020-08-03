@@ -2,7 +2,7 @@
 grand_parent: String
 parent: Properties
 nav_order: 0
-title: String
+title: codeUnits
 ---
 
 # codeUnits property

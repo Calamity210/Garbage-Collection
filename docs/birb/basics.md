@@ -36,7 +36,11 @@ void printDetails() {
 printDetails();
 
 ```
+## Modifiers
 
+- final - Can't reassign variable
+- const - compile time variable (can't reassign)
+- static - TODO
 
 ## Data Types
 

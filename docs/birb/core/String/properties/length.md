@@ -2,7 +2,7 @@
 grand_parent: String
 parent: Properties
 nav_order: 3
-title: String
+title: length
 ---
 
 # length property

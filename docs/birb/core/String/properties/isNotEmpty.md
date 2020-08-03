@@ -2,7 +2,7 @@
 grand_parent: String
 parent: Properties
 nav_order: 2
-title: String
+title: isNotEmpty
 ---
 
 # isNotEmpty property

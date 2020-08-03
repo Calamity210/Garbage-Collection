@@ -2,8 +2,8 @@
 title: Methods
 grand_parent: Core
 parent: String
-nav_order: 0
 has_children: true
+nav_order: 0
 wip: true
 ---
 

@@ -42,6 +42,8 @@ screm("Henlo " + "birb!") // "Henlo birb!"
 - [codeUnitAt](/docs/birb/core/String/methods/codeUnitAt.md)
 - [compareTo](/docs/birb/core/String/methods/compareTo.md)
 - [contains](/docs/birb/core/String/methods/contains.md)
+
+# WIP
 - [endsWith](/docs/birb/core/String/methods/endsWith.md)
 - [indexOf](/docs/birb/core/String/methods/indexOf.md)
 - [input](/docs/birb/core/String/methods/input.md)

@@ -2,10 +2,10 @@
 grand_parent: String
 parent: Methods
 nav_order: 1
-title: String
+title: compareTo
 ---
 
-# compareTo property
+# compareTo method
 
 int compareTo(String str)
 

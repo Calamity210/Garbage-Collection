@@ -2,10 +2,10 @@
 grand_parent: String
 parent: Methods
 nav_order: 0
-title: String
+title: codeUnitAt
 ---
 
-# codeUnitAt property
+# codeUnitAt method
 
 int codeUnitAt(int index)
 

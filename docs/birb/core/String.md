@@ -33,17 +33,17 @@ screm("Henlo " + "birb!") // "Henlo birb!"
 ```
 
 ## Properties
-- [codeUnits](#codeUnits)
-- [isEmpty](#isEmpty)
-- [isNotEmpty](#isNotEmpty)
+- [codeUnits](#codeunits)
+- [isEmpty](#isempty)
+- [isNotEmpty](#isnotempty)
 - [length](#length)
 
 ## Methods
-- [codeUnitAt](#codeUnitAt)
-- [compareTo](#compareTo)
+- [codeUnitAt](#codeunitat)
+- [compareTo](#compareto)
 - [contains](#contains)
-- [endsWith](#endsWith)
-- [indexOf](#indexOf)
+- [endsWith](#endswith)
+- [indexOf](#indexof)
 - [input](#input)
 
 # WIP

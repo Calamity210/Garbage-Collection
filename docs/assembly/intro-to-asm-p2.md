@@ -48,7 +48,7 @@ Another thing to keep in mind is the size of datatypes, some common ones are.
 
 ## First Program
 
-From here on out it will be mostly programming breaks in between to mention or focus on a point.
+From here on out it will be mostly programming with occasional breaks in between to mention or focus on a point.
 
 The programs may look overwhelming, but I will try my best to go over them and break them down to the best of my ability. Go over them with diligence, and you should be good to go!
 

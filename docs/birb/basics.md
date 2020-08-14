@@ -186,7 +186,7 @@ This is a multi-line comment.
  - encodeJson
  - exit
  - GET
- - import
+ - grab
  - input
  - openFile
  - POST
@@ -245,10 +245,10 @@ screm(res.body);
 ```
 
 
-### import
+### grab
 Returns the source code from a file, while allowing you to import a file:
 ```dart
-Source s = import("examples/henlo.birb");
+grab("./examples/henlo.birb");
 ```
 
 ### input
